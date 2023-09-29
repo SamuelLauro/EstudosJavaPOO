@@ -1,11 +1,13 @@
 public class App {
     public static void main(String[] args) throws Exception {
         Personagem heroi = new Personagem();
-        heroi.nome = "Hercules";
+        heroi.nome = "Zeus";
         heroi.nivel = 2;
-        heroi.força = 16;
+        heroi.forca = 8;
         
         heroi.mostrarStatus();
-        heroi.atacar("Hydra");
+        heroi.atacar("Hydra", "");
+
+        
     }
 }
